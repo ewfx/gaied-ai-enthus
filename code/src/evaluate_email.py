@@ -39,6 +39,7 @@ for file in os.listdir(str(gv.PROJECT_ROOT/"data/evaluation/")):
     if file.endswith(".eml"):
         print("Evaluating email: ", file)
         o_requesttype, o_requestsubtype = evaluate_by_pretrained(str(gv.PROJECT_ROOT/"code/src/saved_model"),emailhandler.extract_email_content(str(gv.PROJECT_ROOT)+"/data/evaluation/"+file))
-        print(o_requesttype, o_requestsubtype)
+        print("Output: ",o_requesttype, o_requestsubtype)
+        print()
 
 print("Evaluating all files 'evaluation' directory ended.")
