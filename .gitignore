@@ -172,3 +172,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+create/
+
+gaied-ai-enthus/
+
+code/src/saved_model/

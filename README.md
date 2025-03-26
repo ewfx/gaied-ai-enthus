@@ -14,7 +14,8 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+This project is an attempt to implement the use case "Gen AI Orchestrator for Email and Document Triage/Routing" given as part of Hackathon-2025.
+
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
@@ -27,33 +28,35 @@ A brief overview of your project and its purpose. Mention which problem statemen
 What inspired you to create this project? Describe the problem you're solving.
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+Extract contents from email and uses LLM to classify emails to request type and sub request type combination.
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+Used python as backend. 
+A base open LLM from Hugging Face has been choosen and has been trained on sample supervised set of emails.
+Trained and inferred on laptop.
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+Time constraints :)
+Generation of sample email content
+Identifying the right model that is apt for classification task as well as runs local.
 
 ## 🏃 How to Run
 1. Clone the repository  
    ```sh
-   git clone https://github.com/your-repo.git
+   git clone https://github.com/ewfx/gaied-ai-enthus.git
    ```
 2. Install dependencies  
    ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
+   pip install -r requirements.txt (for Python)
    ```
 3. Run the project  
    ```sh
-   npm start  # or python app.py
+   python evaluate_email.py
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 Backend: Python
+- 🔹 Other: Access to Hugging Face to download model
 
 ## 👥 Team
 - **Your Name** - [GitHub](#) | [LinkedIn](#)
