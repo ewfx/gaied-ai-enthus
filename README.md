@@ -28,7 +28,7 @@ This project is an attempt to implement the use case "Gen AI Orchestrator for Em
 What inspired you to create this project? Describe the problem you're solving.
 
 ## ⚙️ What It Does
-Extract contents from email and uses LLM to classify emails to request type and sub request type combination.
+Extract contents from email and trains the list of sample emails using LLM and uses trained model to classify the new emails to request type and sub request type combination.
 
 ## 🛠️ How We Built It
 Used python as backend. 
