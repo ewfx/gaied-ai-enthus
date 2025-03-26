@@ -1,12 +1,9 @@
-import csv
-import pandas as pd
+import os
 from datasets import load_dataset
 import torch
 from transformers import DistilBertTokenizerFast, DistilBertForSequenceClassification
-from transformers import TrainingArguments, Trainer
 
 import emailhandler
-import preprocessing
 import global_variables as gv
 from requesttypesconfig import RequestTypesConfig
 
@@ -38,5 +35,10 @@ def evaluate_by_pretrained(model_path, eval_text):
     print(predictions)
     return RequestTypesConfig().request_types[predictions.item()]
 
-o_requesttype, o_requestsubtype = evaluate_by_pretrained(str(gv.PROJECT_ROOT/"code/src/saved_model"),emailhandler.extract_email_content(str(gv.PROJECT_ROOT/"data/test_emails/closingnotice_reallocationfee_7.eml")))
-print(o_requesttype, o_requestsubtype)
+for file in os.listdir(str(gv.PROJECT_ROOT/"data/evaluation/")):
+    if file.endswith(".eml"):
+        print("Evaluating email: ", file)
+        o_requesttype, o_requestsubtype = evaluate_by_pretrained(str(gv.PROJECT_ROOT/"code/src/saved_model"),emailhandler.extract_email_content(str(gv.PROJECT_ROOT)+"/data/evaluation/"+file))
+        print(o_requesttype, o_requestsubtype)
+
+print("Evaluating all files 'evaluation' directory ended.")

@@ -1,7 +1,6 @@
 filename,label
 ./data/test_emails/adjustment.eml,0
 ./data/test_emails/adjustment_1.eml,0
-./data/test_emails/adjustment_10.eml,0
 ./data/test_emails/adjustment_2.eml,0
 ./data/test_emails/adjustment_3.eml,0
 ./data/test_emails/adjustment_4.eml,0
@@ -12,7 +11,6 @@ filename,label
 ./data/test_emails/adjustment_9.eml,0
 ./data/test_emails/autransfer.eml,1
 ./data/test_emails/autransfer_1.eml,1
-./data/test_emails/autransfer_10.eml,1
 ./data/test_emails/autransfer_2.eml,1
 ./data/test_emails/autransfer_3.eml,1
 ./data/test_emails/autransfer_4.eml,1
@@ -23,7 +21,6 @@ filename,label
 ./data/test_emails/autransfer_9.eml,1
 ./data/test_emails/closingnotice_reallocationfee.eml,2
 ./data/test_emails/closingnotice_reallocationfee_1.eml,2
-./data/test_emails/closingnotice_reallocationfee_10.eml,2
 ./data/test_emails/closingnotice_reallocationfee_2.eml,2
 ./data/test_emails/closingnotice_reallocationfee_3.eml,2
 ./data/test_emails/closingnotice_reallocationfee_4.eml,2
@@ -34,7 +31,6 @@ filename,label
 ./data/test_emails/closingnotice_reallocationfee_9.eml,2
 ./data/test_emails/closingnotice_amendmentfee.eml,3
 ./data/test_emails/closingnotice_amendmentfee_1.eml,3
-./data/test_emails/closingnotice_amendmentfee_10.eml,3
 ./data/test_emails/closingnotice_amendmentfee_2.eml,3
 ./data/test_emails/closingnotice_amendmentfee_3.eml,3
 ./data/test_emails/closingnotice_amendmentfee_4.eml,3
@@ -45,7 +41,6 @@ filename,label
 ./data/test_emails/closingnotice_amendmentfee_9.eml,3
 ./data/test_emails/closingnotice_principalreallocation.eml,4
 ./data/test_emails/closingnotice_principalreallocation_1.eml,4
-./data/test_emails/closingnotice_principalreallocation_10.eml,4
 ./data/test_emails/closingnotice_principalreallocation_2.eml,4
 ./data/test_emails/closingnotice_principalreallocation_3.eml,4
 ./data/test_emails/closingnotice_principalreallocation_4.eml,4
@@ -56,7 +51,6 @@ filename,label
 ./data/test_emails/closingnotice_principalreallocation_9.eml,4
 ./data/test_emails/commitmentchange_cashlessroll.eml,5
 ./data/test_emails/commitmentchange_cashlessroll_1.eml,5
-./data/test_emails/commitmentchange_cashlessroll_10.eml,5
 ./data/test_emails/commitmentchange_cashlessroll_2.eml,5
 ./data/test_emails/commitmentchange_cashlessroll_3.eml,5
 ./data/test_emails/commitmentchange_cashlessroll_4.eml,5
@@ -67,7 +61,6 @@ filename,label
 ./data/test_emails/commitmentchange_cashlessroll_9.eml,5
 ./data/test_emails/commitmentchange_decrease.eml,6
 ./data/test_emails/commitmentchange_decrease_1.eml,6
-./data/test_emails/commitmentchange_decrease_10.eml,6
 ./data/test_emails/commitmentchange_decrease_2.eml,6
 ./data/test_emails/commitmentchange_decrease_3.eml,6
 ./data/test_emails/commitmentchange_decrease_4.eml,6
@@ -78,7 +71,6 @@ filename,label
 ./data/test_emails/commitmentchange_decrease_9.eml,6
 ./data/test_emails/commitmentchange_increase.eml,7
 ./data/test_emails/commitmentchange_increase_1.eml,7
-./data/test_emails/commitmentchange_increase_10.eml,7
 ./data/test_emails/commitmentchange_increase_2.eml,7
 ./data/test_emails/commitmentchange_increase_3.eml,7
 ./data/test_emails/commitmentchange_increase_4.eml,7
@@ -89,7 +81,6 @@ filename,label
 ./data/test_emails/commitmentchange_increase_9.eml,7
 ./data/test_emails/feepayment_ongoingfee.eml,8
 ./data/test_emails/feepayment_ongoingfee_1.eml,8
-./data/test_emails/feepayment_ongoingfee_10.eml,8
 ./data/test_emails/feepayment_ongoingfee_2.eml,8
 ./data/test_emails/feepayment_ongoingfee_3.eml,8
 ./data/test_emails/feepayment_ongoingfee_4.eml,8
@@ -100,7 +91,6 @@ filename,label
 ./data/test_emails/feepayment_ongoingfee_9.eml,8
 ./data/test_emails/feepayment_letterofcredit.eml,9
 ./data/test_emails/feepayment_letterofcredit_1.eml,9
-./data/test_emails/feepayment_letterofcredit_10.eml,9
 ./data/test_emails/feepayment_letterofcredit_2.eml,9
 ./data/test_emails/feepayment_letterofcredit_3.eml,9
 ./data/test_emails/feepayment_letterofcredit_4.eml,9
@@ -111,7 +101,6 @@ filename,label
 ./data/test_emails/feepayment_letterofcredit_9.eml,9
 ./data/test_emails/moneymovement_in_principal.eml,10
 ./data/test_emails/moneymovement_in_principal_1.eml,10
-./data/test_emails/moneymovement_in_principal_10.eml,10
 ./data/test_emails/moneymovement_in_principal_2.eml,10
 ./data/test_emails/moneymovement_in_principal_3.eml,10
 ./data/test_emails/moneymovement_in_principal_4.eml,10
@@ -122,7 +111,6 @@ filename,label
 ./data/test_emails/moneymovement_in_principal_9.eml,10
 ./data/test_emails/moneymovement_in_interest.eml,11
 ./data/test_emails/moneymovement_in_interest_1.eml,11
-./data/test_emails/moneymovement_in_interest_10.eml,11
 ./data/test_emails/moneymovement_in_interest_2.eml,11
 ./data/test_emails/moneymovement_in_interest_3.eml,11
 ./data/test_emails/moneymovement_in_interest_4.eml,11
@@ -133,7 +121,6 @@ filename,label
 ./data/test_emails/moneymovement_in_interest_9.eml,11
 ./data/test_emails/moneymovement_in_principalinterest.eml,12
 ./data/test_emails/moneymovement_in_principalinterest_1.eml,12
-./data/test_emails/moneymovement_in_principalinterest_10.eml,12
 ./data/test_emails/moneymovement_in_principalinterest_2.eml,12
 ./data/test_emails/moneymovement_in_principalinterest_3.eml,12
 ./data/test_emails/moneymovement_in_principalinterest_4.eml,12
@@ -144,7 +131,6 @@ filename,label
 ./data/test_emails/moneymovement_in_principalinterest_9.eml,12
 ./data/test_emails/moneymovement_in_principalinterestfee.eml,13
 ./data/test_emails/moneymovement_in_principalinterestfee_1.eml,13
-./data/test_emails/moneymovement_in_principalinterestfee_10.eml,13
 ./data/test_emails/moneymovement_in_principalinterestfee_2.eml,13
 ./data/test_emails/moneymovement_in_principalinterestfee_3.eml,13
 ./data/test_emails/moneymovement_in_principalinterestfee_4.eml,13
@@ -155,7 +141,6 @@ filename,label
 ./data/test_emails/moneymovement_in_principalinterestfee_9.eml,13
 ./data/test_emails/moneymovement_out_timebound.eml,14
 ./data/test_emails/moneymovement_out_timebound_1.eml,14
-./data/test_emails/moneymovement_out_timebound_10.eml,14
 ./data/test_emails/moneymovement_out_timebound_2.eml,14
 ./data/test_emails/moneymovement_out_timebound_3.eml,14
 ./data/test_emails/moneymovement_out_timebound_4.eml,14
@@ -166,7 +151,6 @@ filename,label
 ./data/test_emails/moneymovement_out_timebound_9.eml,14
 ./data/test_emails/moneymovement_out_foreigncurrency.eml,15
 ./data/test_emails/moneymovement_out_foreigncurrency_1.eml,15
-./data/test_emails/moneymovement_out_foreigncurrency_10.eml,15
 ./data/test_emails/moneymovement_out_foreigncurrency_2.eml,15
 ./data/test_emails/moneymovement_out_foreigncurrency_3.eml,15
 ./data/test_emails/moneymovement_out_foreigncurrency_4.eml,15

@@ -51,7 +51,15 @@ Identifying the right model that is apt for classification task as well as runs 
    ```
 3. Run the project  
    ```sh
+   Change directory to code/src and
+   Run:
+   python preprocessing.py
+   python train_classification.py
    python evaluate_email.py
+   in the order.
+
+   Or, run
+   python app.py which runs all of them in the order. 
    ```
 
 ## 🏗️ Tech Stack

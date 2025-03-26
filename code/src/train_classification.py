@@ -5,8 +5,6 @@ import torch
 from transformers import DistilBertTokenizerFast, DistilBertForSequenceClassification
 from transformers import TrainingArguments, Trainer
 
-import emailhandler
-import preprocessing
 import global_variables as gv
 
 if torch.backends.mps.is_available():
@@ -59,9 +57,9 @@ def train_on_classification(model_name, data_file):
         eval_strategy="epoch",
         save_strategy="epoch",
         learning_rate=2e-5,
-        per_device_train_batch_size=16,
-        per_device_eval_batch_size=16,
-        num_train_epochs=5,
+        per_device_train_batch_size=32,
+        per_device_eval_batch_size=32,
+        num_train_epochs=20,
         weight_decay=0.01,
         push_to_hub=False,
     )
