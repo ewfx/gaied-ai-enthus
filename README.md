@@ -18,7 +18,10 @@ This project is an attempt to implement the use case "Gen AI Orchestrator for Em
 
 
 ## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
+
+## Please refer to [/artifacts/demo](https://github.com/ewfx/gaied-ai-enthus/tree/main/artifacts/demo)
+
+🔗[Live Demo](#) (if applicable)  
 📹 [Video Demo](#) (if applicable)  
 🖼️ Screenshots:
 
